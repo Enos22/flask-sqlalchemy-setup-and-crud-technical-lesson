@@ -2,6 +2,7 @@
 
 from flask import Flask
 from flask_migrate import Migrate
+from models import db, Pet
 
 from models import db
 
